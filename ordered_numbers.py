@@ -1,6 +1,6 @@
 #! python3
 # ordered_numbers.py - Program that given a list of numbers returns an 'ordered' version of those numbers
-# complexity of order_number() function: O(n - 1) where n is the number of digits of one number
+# complexity of order_number() function: O(n ^ 2) where n is the number of digits of one number
 import os
 
 
