@@ -5,7 +5,7 @@ import os
 
 
 def order_number(number):
-    """Return a list of ordered numbers"""
+    """Return the greatest ordered number given a <number>"""
     ordered_number = number
     digits = [int(n) for n in list(str(ordered_number))]
     for i in range(len(digits))[::-1]:
